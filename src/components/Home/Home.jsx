@@ -16,13 +16,13 @@ const projects = [
     title: "Smart Arduino Car",
     desc: "IoT based robotic car with obstacle detection and Blynk mobile control.",
     img: "https://images-cdn.ubuy.co.in/66df2280c514ed533b6b623c-keyestudio-smart-car-robot-4wd.jpg",
-    tags: ["IoT", "Arduino"],
+    tags: ["Arduino UNO","L298N","ESP8266","Blynk mobile","HC-SR04"],
     live: "https://github.com/ajeet3105/car-control",
     github: "https://github.com/ajeet3105/car-control",
   },
   {
-    title: "Mid Sem Paper Povider for Revision",
-    desc: "AI based system using MediaPipe to detect and display sign language gestures.",
+    title: "EduPast",
+    desc: "B.tech students can download past mid sem paper for revision",
     img: "/EduPast.png",
     tags: [
       "Html",
@@ -44,8 +44,8 @@ const projects = [
     github: "https://github.com/ajeet3105/Portfolio",
   },
   {
-    title: "Buy Sell & Donate E-Books",
-    desc: "Full-stack MERN project with cart, payment gateway, and user authentication.",
+    title: "BookMandir",
+    desc: "Full-stack MERN project with cart,buy sell & donate, chat with seller, and user authentication.",
     img: "/MYBOOKS.png",
     tags: ["MERN", "TailwindCSS", "NodeJS", "MongoDB","Socket.IO"],
     live: "https://bookmandir-frontend.vercel.app/",
