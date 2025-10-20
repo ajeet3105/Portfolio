@@ -6,7 +6,7 @@ import {
   FaLinkedin,
   FaReact,
   FaNodeJs,
-  FaGithub
+  FaGithub,
 } from "react-icons/fa6";
 import { IoLogoYoutube } from "react-icons/io";
 import { SiMongodb, SiExpress, SiArduino } from "react-icons/si";
@@ -16,15 +16,22 @@ const projects = [
     title: "Smart Arduino Car",
     desc: "IoT based robotic car with obstacle detection and Blynk mobile control.",
     img: "https://images-cdn.ubuy.co.in/66df2280c514ed533b6b623c-keyestudio-smart-car-robot-4wd.jpg",
-    tags: ["IoT", "Arduino",],
+    tags: ["IoT", "Arduino"],
     live: "https://github.com/ajeet3105/car-control",
     github: "https://github.com/ajeet3105/car-control",
   },
   {
     title: "Mid Sem Paper Povider for Revision",
     desc: "AI based system using MediaPipe to detect and display sign language gestures.",
-    img: "/projects/sign_language.jpg",
-    tags: ["Html","TailwindCSS","Javascript","Express","Node.js","MongoDB"],
+    img: "/EduPast.png",
+    tags: [
+      "Html",
+      "TailwindCSS",
+      "Javascript",
+      "Express",
+      "Node.js",
+      "MongoDB",
+    ],
     live: "https://edupast.onrender.com/",
     github: "https://github.com/ajeet3105/EduPAST",
   },
@@ -32,15 +39,15 @@ const projects = [
     title: "Portfolio Website",
     desc: "Responsive portfolio built using React, TailwindCSS showcasing projects & skills.",
     img: "/AKportfolio.png",
-    tags: ["HTML","Tailwind", "React",],
+    tags: ["HTML", "Tailwind", "React"],
     live: "https://portfolio-psi-jade-tefsgbv8c4.vercel.app/",
     github: "https://github.com/ajeet3105/Portfolio",
   },
   {
     title: "Buy Sell & Donate E-Books",
     desc: "Full-stack MERN project with cart, payment gateway, and user authentication.",
-    img: "/projects/ecommerce.jpg",
-    tags: ["MERN","TailwindCSS", "NodeJS", "MongoDB"],
+    img: "/MYBOOKS.png",
+    tags: ["MERN", "TailwindCSS", "NodeJS", "MongoDB","Socket.IO"],
     live: "https://bookmandir-frontend.vercel.app/",
     github: "https://github.com/ajeet3105/Bookmandir-Frontend",
   },
@@ -101,8 +108,9 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a href=""></a>
-                  <FaGithub className="text-white md:text-gray-400 text-xl md:text-2xl rounded-full border border-white md:border-gray-700 hover:border-white hover:text-white hover:scale-110 duration-200"  />
+                  <a href="https://github.com/ajeet3105/" target="_blank">
+                    <FaGithub className="text-white md:text-gray-400 text-xl md:text-2xl rounded-full border border-white md:border-gray-700 hover:border-white hover:text-white hover:scale-110 duration-200" />
+                  </a>
                 </li>
                 <li>
                   <a href="https://x.com/ajeetkumarkb02" target="_blank">
@@ -118,7 +126,10 @@ const Home = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.youtube.com/@Ajeet-b.tech123" target="_blank">
+                  <a
+                    href="https://www.youtube.com/@Ajeet-b.tech123"
+                    target="_blank"
+                  >
                     <IoLogoYoutube className="text-red-600 md:text-gray-400 text-xl md:text-2xl rounded-full border border-red-600 md:border-gray-700 hover:border-red-600 hover:text-red-600 hover:scale-110 duration-200" />
                   </a>
                 </li>
@@ -225,11 +236,11 @@ const Home = () => {
               <div className="p-4">
                 <h2 className="font-bold text-white mb-2">{project.title}</h2>
                 <p className="text-gray-300 text-sm mb-2">{project.desc}</p>
-                <div className="flex gap-2 flex-wrap" >
+                <div className="flex gap-2 flex-wrap">
                   {project.tags.map((tag, i) => (
                     <span
-                      key={i} 
-                      className="bg-amber-500 text-black px-2 py-1 rounded-full text-xs" 
+                      key={i}
+                      className="bg-amber-500 text-black px-2 py-1 rounded-full text-xs"
                     >
                       {tag}
                     </span>
@@ -238,13 +249,15 @@ const Home = () => {
                 <div className="mt-3 flex gap-4">
                   <a
                     href={project.live}
-                    className="text-amber-500 text-sm hover:underline" target="_blank"
+                    className="text-amber-500 text-sm hover:underline"
+                    target="_blank"
                   >
                     Live
                   </a>
                   <a
                     href={project.github}
-                    className="text-amber-500 text-sm hover:underline" target="_blank"
+                    className="text-amber-500 text-sm hover:underline"
+                    target="_blank"
                   >
                     GitHub
                   </a>

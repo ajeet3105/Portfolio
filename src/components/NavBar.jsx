@@ -126,7 +126,7 @@ const NavBar = () => {
                 About
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink
                 to={"/experience"}
                 className={({ isActive }) =>
@@ -136,7 +136,7 @@ const NavBar = () => {
               >
                 Experience
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink
                 to={"/contact"}
