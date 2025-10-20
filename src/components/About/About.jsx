@@ -137,7 +137,7 @@ const About = () => {
           Let's build something together!
         </h2>
         <a
-          href="mailto:ajeetkumarbtech02@gmail.com"
+          href="mailto:ajeetkumarkb02@gmail.com"
           className="inline-block bg-amber-500 text-black px-8 py-3 rounded-full font-semibold hover:bg-amber-400 transition duration-300"
         >
           Hire Me
