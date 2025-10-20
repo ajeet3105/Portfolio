@@ -171,7 +171,7 @@ const Home = () => {
           <div className="mb-4">
             <h2 className="font-semibold mb-1">C++</h2>
             <div className="bg-gray-800 rounded-full h-3  w-full">
-              <div className="bg-indigo-700 h-2  md:h-3 lg:h-3 rounded-full w-3/5 sm:w-3/5 md:w-3/4 lg:w-2/3 transition-all duration-500"></div>
+              <div className="bg-indigo-700 h-3  md:h-3 lg:h-3 rounded-full w-3/5 sm:w-3/5 md:w-3/4 lg:w-2/3 transition-all duration-500"></div>
             </div>
           </div>
 
@@ -180,7 +180,7 @@ const Home = () => {
               Data Structures and Algorithms
             </h2>
             <div className="bg-gray-800 rounded-full h-3 w-full">
-              <div className="bg-red-700 h-2 md:h-3 lg:h-3 rounded-full w-2/4 sm:w-2/4 md:w-3/5 lg:w-3/5 transition-all duration-500"></div>
+              <div className="bg-red-700 h-3 md:h-3 lg:h-3 rounded-full w-2/4 sm:w-2/4 md:w-3/5 lg:w-3/5 transition-all duration-500"></div>
             </div>
           </div>
 
@@ -188,7 +188,7 @@ const Home = () => {
           <div>
             <h2 className="font-semibold mb-1">Frontend</h2>
             <div className="bg-gray-800 rounded-full h-3 w-full">
-              <div className="bg-amber-500 h-2  md:h-3 lg:h-3 rounded-full w-3/5 sm:w-3/5 md:w-3/4 lg:w-2/3 transition-all duration-500"></div>
+              <div className="bg-amber-500 h-3  md:h-3 lg:h-3 rounded-full w-3/5 sm:w-3/5 md:w-3/4 lg:w-2/3 transition-all duration-500"></div>
             </div>
           </div>
 
@@ -196,7 +196,7 @@ const Home = () => {
           <div>
             <h2 className="font-semibold mb-1">Backend</h2>
             <div className="bg-gray-800 rounded-full h-3 w-full">
-              <div className="bg-green-500 h-2 md:h-3 lg:h-3 rounded-full w-2/4 sm:w-2/4 md:w-2/4 lg:w-2/4 transition-all duration-500"></div>
+              <div className="bg-green-500 h-3 md:h-3 lg:h-3 rounded-full w-2/4 sm:w-2/4 md:w-2/4 lg:w-2/4 transition-all duration-500"></div>
             </div>
           </div>
 
@@ -204,7 +204,7 @@ const Home = () => {
           <div>
             <h2 className="font-semibold mb-1">Database</h2>
             <div className="bg-gray-800 rounded-full h-3 w-full">
-              <div className="bg-teal-500 h-2 md:h-3 lg:h-3 rounded-full w-3/4 sm:w-3/4 md:w-3/4 lg:w-3/4 transition-all duration-500"></div>
+              <div className="bg-teal-500 h-3 md:h-3 lg:h-3 rounded-full w-3/4 sm:w-3/4 md:w-3/4 lg:w-3/4 transition-all duration-500"></div>
             </div>
           </div>
 
@@ -212,7 +212,7 @@ const Home = () => {
           <div>
             <h2 className="font-semibold mb-1">IoT / Arduino</h2>
             <div className="bg-gray-800 rounded-full h-3 w-full">
-              <div className="bg-blue-500 h-2 md:h-3 lg:h-3 rounded-full w-2/4 sm:w-2/4 md:w-2/4 lg:w-2/4 transition-all duration-500"></div>
+              <div className="bg-blue-500 h-3 md:h-3 lg:h-3 rounded-full w-2/4 sm:w-2/4 md:w-2/4 lg:w-2/4 transition-all duration-500"></div>
             </div>
           </div>
         </div>
