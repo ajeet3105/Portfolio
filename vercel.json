@@ -11,12 +11,11 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
       "dest": "/index.html"
     }
-  ],
-  "framework": "vite",
-  "env": {
-    "NODE_ENV": "production"
-  }
+  ]
 }
